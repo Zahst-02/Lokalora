@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/background">
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Alamat Pengiriman" android:textStyle="bold" android:layout_marginBottom="8dp"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Kota Cirebon" android:background="@color/surface" android:padding="16dp" android:layout_marginBottom="16dp"/>
+    
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Rincian Pembayaran" android:textStyle="bold" android:layout_marginBottom="8dp"/>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:background="@color/surface" android:orientation="vertical" android:padding="16dp">
+        <TextView android:id="@+id/tvSubtotal" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Subtotal: Rp 0"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Pengiriman (Reguler): Rp 10000"/>
+        <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/divider" android:layout_marginVertical="8dp"/>
+        <TextView android:id="@+id/tvTotal" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Total: Rp 0" android:textStyle="bold" android:textColor="@color/secondary" android:textSize="18sp"/>
+    </LinearLayout>
+    
+    <Space android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+    <Button android:id="@+id/btnOrder" android:layout_width="match_parent" android:layout_height="56dp" android:text="BUAT PESANAN" android:backgroundTint="@color/primary"/>
+</LinearLayout>

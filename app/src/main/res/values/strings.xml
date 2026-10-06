@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Lokalora</string>
+    <string name="tagline">Temukan Produk Lokal, Dukung UMKM</string>
+    <string name="search_hint">Cari produk atau toko...</string>
+    <string name="title_home">Beranda</string>
+    <string name="title_search">Jelajah</string>
+    <string name="title_cart">Keranjang</string>
+    <string name="title_orders">Pesanan</string>
+    <string name="title_profile">Profil</string>
+    <string name="add_to_cart">TAMBAH KE KERANJANG</string>
+    <string name="buy_now">BELI SEKARANG</string>
+    <string name="checkout">BUAT PESANAN</string>
+    <string name="check_payment_status">CEK STATUS PEMBAYARAN</string>
+</resources>
